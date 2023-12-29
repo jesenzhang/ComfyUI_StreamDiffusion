@@ -1,8 +1,7 @@
 # ComfyUI_StreamDiffusion
 
-# This is a simple implemention StreamDiffusion for ComfyUI
+# This is a simple implemention StreamDiffusion<a href="https://github.com/cumulo-autumn/StreamDiffusion.git" > for ComfyUI
 
-StreamDiffusion code from https://github.com/cumulo-autumn/StreamDiffusion.git
 
 # StreamDiffusion: A Pipeline-Level Solution for Real-Time Interactive Generation
 
@@ -18,3 +17,13 @@ you can download the workflow image below , and import into ComfyUI
 <p align="center">
   <img src="./workflow.png" width=90%>
 </p>
+
+# img2img
+ img2img can be done by send a image to the image imput in the sampler node,but the batch_size must be 1.
+
+# Lora stack
+
+Lora stack can be set by using LoRA Stacker from Efficiency Nodes.
+
+## Support
+Thank you for being awesome!
