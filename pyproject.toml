@@ -1,0 +1,14 @@
+[project]
+name = "comfyui_streamdiffusion"
+description = "This is a simple implementation StreamDiffusion(A Pipeline-Level Solution for Real-Time Interactive Generation) for ComfyUI"
+version = "1.0.0"
+license = "LICENSE"
+
+[project.urls]
+Repository = "https://github.com/jesenzhang/ComfyUI_StreamDiffusion"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI_StreamDiffusion"
+Icon = ""
