@@ -10,7 +10,7 @@ def denormalize(images: Union[torch.Tensor, np.ndarray]) -> torch.Tensor:
     """
     Denormalize an image array to [0,1].
     """
-    return (images / 2 + 0.5).clamp(0, 1)
+    return (images.float() / 2 + 0.5).clamp(0, 1)
 
 
 def pt_to_numpy(images: torch.Tensor) -> np.ndarray:
